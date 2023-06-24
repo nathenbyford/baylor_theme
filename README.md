@@ -20,18 +20,14 @@ This theme is heavily influenced by the [metropolis](https://github.com/pat-s/xa
 
 ## Usage notes
 
-### Note:
-
-I'm working on making the template easily downloadable, for right now it is easiest to clone this repo and use the template as your presentation. Then get rid of all the extra files not needed.
-
 -   To use the template in for a new document use the following code in the terminal.
 
 ```         
-quarto use template nathenbyford/baylor-quarto-theme
+quarto use template nathenbyford/baylor_theme
 ```
 
 -   To use the template on a preexisting quarto document and just add the theme you can use the following code in the terminal
 
 ```         
-quarto add nathenbyford/baylor-quarto-theme
+quarto add nathenbyford/baylor_theme
 ```
