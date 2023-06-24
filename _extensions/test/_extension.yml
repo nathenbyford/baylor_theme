@@ -1,0 +1,23 @@
+title: Baylor Presentation Template
+author: Nathen Byford
+version: 1.0.0
+contributes:
+  formats: 
+    revealjs:
+      logo: baylor.png
+      theme: [default, baylor-theme.scss]
+      author: Nathen Byford
+      slide-number: true
+      auto-animate: true
+      chalkboard: false
+      preview-links: false
+      multiplex: false
+      scrollable: true
+  execute: 
+    echo: true
+    cache: false
+  knitr:
+    opts_chunk: 
+      fig-format: svg
+      collapse: true
+      comment: "#"
