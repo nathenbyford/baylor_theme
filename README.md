@@ -1,23 +1,37 @@
-# <%= title %> Format
+# Baylor reveal.js Theme for Quarto
 
-## Installing
+This theme is heavily influenced by the [metropolis](https://github.com/pat-s/xaringan-metropolis) and [quarto-metropolis](https://codeberg.org/pat-s/quarto-metropolis) themes. With some color changes and the Baylor University logo in the corner.
 
-*TODO*: Replace the `<github-organization>` with your GitHub organization.
+## Edits made
 
-```bash
-quarto use template nathenbyford/test
+-   Baylor green headings,
+-   Baylor logo,
+-   Baylor green square bullet points,
+-   Roboto font default, and
+-   Jetbrains mono font (no ligatures) for code blocks.
+
+## Photos
+
+![](Title.png)
+
+![](List.png)
+
+![](math.png)
+
+## Usage notes
+
+### Note:
+
+I'm working on making the template easily downloadable, for right now it is easiest to clone this repo and use the template as your presentation. Then get rid of all the extra files not needed.
+
+-   To use the template in for a new document use the following code in the terminal.
+
+```         
+quarto use template nathenbyford/baylor-quarto-theme
 ```
 
-This will install the extension and create an example qmd file that you can use as a starting place for your article.
+-   To use the template on a preexisting quarto document and just add the theme you can use the following code in the terminal
 
-## Using
-
-*TODO*: Describe how to use your format.
-
-## Format Options
-
-*TODO*: If your format has options that can be set via document metadata, describe them.
-
-## Example
-
-Here is the source code for a minimal sample document: [example.qmd](example.qmd).
+```         
+quarto add nathenbyford/baylor-quarto-theme
+```
