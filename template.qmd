@@ -1,8 +1,9 @@
 ---
 title: 'Title'
 date: ''
-format: 
+baylor_theme-format: 
   revealjs:
+    author: 'Author'
     footer: 'Author'
 ---
 

@@ -6,7 +6,6 @@ contributes:
     revealjs:
       logo: logo.png
       theme: [default, custom.scss]
-      author: Nathen Byford
       slide-number: true
       auto-animate: true
       chalkboard: false
