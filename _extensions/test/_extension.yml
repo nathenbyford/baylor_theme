@@ -4,8 +4,8 @@ version: 1.0.0
 contributes:
   formats: 
     revealjs:
-      logo: baylor.png
-      theme: [default, baylor-theme.scss]
+      logo: logo.png
+      theme: [default, custom.scss]
       author: Nathen Byford
       slide-number: true
       auto-animate: true
