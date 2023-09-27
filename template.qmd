@@ -2,9 +2,7 @@
 title: 'Title'
 date: ''
 format: 
-  revealjs:
-    logo: _extensions\nathenbyford\baylor_theme\logo.png
-    theme: [_extensions\nathenbyford\baylor_theme\custom.scss]
+  baylor_theme-revealjs:
     author: 'Author'
     footer: 'Author'
 ---
