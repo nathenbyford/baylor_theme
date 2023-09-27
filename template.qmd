@@ -1,8 +1,10 @@
 ---
 title: 'Title'
 date: ''
-baylor_theme-format: 
+format: 
   revealjs:
+    logo: _extensions\nathenbyford\baylor_theme\logo.png
+    theme: [_extensions\nathenbyford\baylor_theme\custom.scss]
     author: 'Author'
     footer: 'Author'
 ---
