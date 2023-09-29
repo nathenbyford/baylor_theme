@@ -26,8 +26,19 @@ This theme is heavily influenced by the [metropolis](https://github.com/pat-s/xa
 quarto use template nathenbyford/baylor_theme
 ```
 
--   To use the template on a preexisting quarto document and just add the theme you can use the following code in the terminal
+-   To use the template on a preexisting quarto document and just add the theme you can use the following code in the terminal within the working directory,
 
 ```         
 quarto add nathenbyford/baylor_theme
+```
+Then after running the line of code in your terminal youll need to change your header to include
+```
+---
+title: "Title"
+author: Author
+footer: Author
+format: 
+    baylor_theme-revealjs:
+        ...
+---
 ```
