@@ -23,7 +23,25 @@ $presentation-heading-font-weight: 400;
 $body-bg: #fefefe !default;
 $body-color: #000 !default;
 $selection-bg: #134e13;
+$baylor_green: #134e13;
+$gray70: #b3b3b3;
 
+.subtext {
+	font-size:     .85em;
+	color: $baylor_green;
+}
+
+.subsubtext {
+	font-size:     .70em;
+	color: $gray70;
+}
+
+.emph {
+	font-size:     1em;
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: underline;
+}
 
 /*-- scss:rules --*/
 
@@ -81,16 +99,18 @@ $selection-bg: #134e13;
 
 
 // Section break slide
-hr,
-h1::after {
-	content: "";
-	display: block;
-	border: none;
-	background-color: #FFB81C;
-	color: #FFB81C;
-	height: 1px;
-	margin: 1em 10px 0 10px;
-}
+/*--
+	hr,
+	h1::after {
+		content: "";
+		display: block;
+		border: none;
+		background-color: #FFB81C;
+		color: #FFB81C;
+		height: 1px;
+		margin: 1em 10px 0 10px;
+	}
+--*/
 
 // Override h1 style for title slide (remove section break slide style)
 hr,

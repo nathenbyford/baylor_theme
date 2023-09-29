@@ -12,11 +12,11 @@ contributes:
       preview-links: false
       multiplex: false
       scrollable: true
-  execute: 
-    echo: true
-    cache: false
-  knitr:
-    opts_chunk: 
-      fig-format: svg
-      collapse: true
-      comment: "#"
+execute: 
+  echo: true
+  cache: false
+knitr:
+  opts_chunk: 
+    fig-format: svg
+    collapse: true
+    comment: "#"
