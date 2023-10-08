@@ -86,8 +86,7 @@ $gray70: #b3b3b3;
 }
 
 // Lists
-.reveal .slide ul li,
-.reveal .slide ol li {
+.reveal .slide ul li {
   list-style-type: square;
   color: #154734;
 	font-weight: 300;
@@ -131,7 +130,6 @@ h2::after.title {
 
 .reveal .slide-number a {
 	font-size: 100%;
-	background-color: #fafafa;
 	border-radius: 12px;
 	padding: 5px;
 }
