@@ -24,6 +24,7 @@ $body-bg: #fefefe !default;
 $body-color: #000 !default;
 $selection-bg: #134e13;
 $baylor_green: #134e13;
+$university-gold: #FFB81C
 $gray70: #b3b3b3;
 
 .subtext {
@@ -156,11 +157,12 @@ h2::after.title {
 	padding-top: 15px;
 }
 
-.colored-column {
-	border: 2px solid red;
+.def {
+	// border: 2px solid $university-gold;
 	border-radius: 6px !important;
 	padding: 10px;
 	margin: 5px;
+	background-color: #eeeeee;
 }
 
 .reveal h2 {
