@@ -65,10 +65,10 @@ $gray70: #b3b3b3;
   content: "";
   display: block;
 	border: none;
-	background-color: #000;
+	background-color: $baylor_green;
 	color: #000;
 	height: 1px;
-	margin: 0 0 10px 0;
+	width: 100%;
 }
 
 .reveal a {
