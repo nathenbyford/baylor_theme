@@ -38,7 +38,7 @@ title: "Title"
 author: Author
 footer: Author
 format: 
-    baylor_theme-revealjs:
-        ...
+    baylor_theme-revealjs
 ---
 ```
+More formatting arguments can still be included after this ti customize the document/presentation to your likeing and needs.
