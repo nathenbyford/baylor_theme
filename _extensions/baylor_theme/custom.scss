@@ -99,6 +99,10 @@ $gray70: #b3b3b3;
   font-size: 20px;
 }
 
+.reveal .slide ol li {
+	font-weight: 300;
+}
+
 // Maximum height of code blocks
 .reveal pre.sourceCode code {
 	max-height: 600px; // default 500
