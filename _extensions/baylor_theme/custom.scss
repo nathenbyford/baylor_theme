@@ -82,14 +82,21 @@ $gray70: #b3b3b3;
 }
 
 .reveal p {
-	font-weight: 300;
+	font-weight: 400;
 }
 
 // Lists
 .reveal .slide ul li {
-  list-style-type: square;
-  color: #154734;
-	font-weight: 300;
+  list-style-type: none;
+  font-weight: 300;
+}
+  
+.reveal .slide ul li:before{
+  content: '➤';
+  color: $baylor_green;
+  position: absolute;
+  left: 0;
+  font-size: 20px;
 }
 
 // Maximum height of code blocks
