@@ -90,17 +90,25 @@ $gray70: #b3b3b3;
   list-style-type: none;
   font-weight: 300;
 }
-  
-.reveal .slide ul li:before{
+
+.reveal .slide ul li::before{
   content: '➤';
   color: $baylor_green;
-  position: absolute;
-  left: 0;
+  position: relative;
+  right: 10px;
   font-size: 20px;
 }
 
+.reveal .slide ul ul li::before{
+  color: $university-gold;
+}
+
+.reveal .slide ul ul ul li::before{
+  color: $baylor_green;
+}
+
 .reveal .slide ol li {
-	font-weight: 300;
+  font-weight: 300;
 }
 
 // Maximum height of code blocks
