@@ -9,6 +9,7 @@ This theme is heavily influenced by the [metropolis](https://github.com/pat-s/xa
 -   Baylor green square bullet points,
 -   Roboto font default, and
 -   Jetbrains mono font (no ligatures) for code blocks.
+-   Image zoom (Radovan Miletić, [here](https://stackoverflow.com/questions/75922380/how-to-zoom-on-graph-in-slide-revealjs-quarto))
 
 ## Photos
 
