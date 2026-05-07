@@ -8,6 +8,12 @@ format:
     footer: 'Nathen Byford'
 ---
 
+```{r}
+#| include: False
+
+library(tidyverse)
+```
+
 ## Quarto
 
 Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
@@ -28,7 +34,13 @@ When you click the **Render** button a document will be generated that includes:
 When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
 
 ```{r}
-rnorm(5)
+#| echo: True #If True function calls will be shown in rendered presentation
+
+x <- rnorm(5)
+x
+
+mean(x)
+var(x)
 ```
 
 ## Tabset navigation pills

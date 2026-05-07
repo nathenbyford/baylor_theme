@@ -1,14 +1,14 @@
 # Baylor reveal.js Theme for Quarto
 
-This theme is heavily influenced by the [metropolis](https://github.com/pat-s/xaringan-metropolis) and [quarto-metropolis](https://codeberg.org/pat-s/quarto-metropolis) themes. With some color changes and the Baylor University logo in the corner.
+This theme takes inspiration from the [metropolis](https://github.com/pat-s/xaringan-metropolis) and [quarto-metropolis](https://codeberg.org/pat-s/quarto-metropolis) themes. With some color changes, the Baylor University logo in the corner, and other athsteatic updates.
 
 ## Edits made
 
 -   Baylor green headings,
 -   Baylor logo,
--   Baylor green square bullet points,
--   Roboto font default, and
--   Jetbrains mono font (no ligatures) for code blocks.
+-   Baylor green and gold arrow bullet points,
+-   Outfit font default, and
+-   Jetbrains mono font (No ligatures) for code blocks.
 -   Image zoom (Radovan Miletić, [here](https://stackoverflow.com/questions/75922380/how-to-zoom-on-graph-in-slide-revealjs-quarto))
 
 ## Photos
@@ -17,7 +17,7 @@ This theme is heavily influenced by the [metropolis](https://github.com/pat-s/xa
 
 ![](List.png)
 
-![](math.png)
+![](Tabset.png)
 
 ## Usage notes
 
