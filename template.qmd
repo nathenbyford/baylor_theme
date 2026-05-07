@@ -1,10 +1,12 @@
 ---
 title: 'Title'
-date: ''
+subtitle: 'Subtitle'
+date: today
 format: 
   baylor_theme-revealjs:
-    author: 'Author'
-    footer: 'Author'
+    author: 'First Last'
+    institute: 'Baylor University'
+    footer: 'First Last'
 ---
 
 ## Quarto
@@ -17,6 +19,8 @@ When you click the **Render** button a document will be generated that includes:
 
 -   Content authored with markdown
 -   Output from executable code
+    -  $2^{nd}$ level bullets
+       -  $3^{rd}$ level bullets
 
 # Code
 
@@ -27,3 +31,25 @@ When you click the **Render** button a presentation will be generated that inclu
 ```{r}
 1 + 1
 ```
+
+## Tabset navigation pills
+
+::: {.panel-tabset}
+
+## Plot
+
+```{r}
+df <- data.frame(x = rnorm(5), y = rnorm(5))
+plot(df)
+
+```
+
+## Table
+
+```{r}
+knitr::kable(df)
+
+```
+
+:::
+

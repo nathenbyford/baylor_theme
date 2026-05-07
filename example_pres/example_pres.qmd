@@ -4,6 +4,7 @@ date: ''
 format: 
   baylor_theme-revealjs:
     author: 'Nathen Byford'
+    institute: 'Baylor University'
     footer: 'Nathen Byford'
 ---
 
@@ -17,6 +18,8 @@ When you click the **Render** button a document will be generated that includes:
 
 -   Content authored with markdown
 -   Output from executable code
+    -  $2^{nd}$ level bullets
+       -  $3^{rd}$ level bullets
 
 # Code
 
@@ -25,5 +28,26 @@ When you click the **Render** button a document will be generated that includes:
 When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
 
 ```{r}
-1 + 1
+rnorm(5)
 ```
+
+## Tabset navigation pills
+
+::: {.panel-tabset}
+
+## Plot
+
+```{r}
+df <- data.frame(x = rnorm(5), y = rnorm(5))
+plot(df)
+
+```
+
+## Table
+
+```{r}
+knitr::kable(df)
+
+```
+
+:::
