@@ -3,8 +3,12 @@ title: 'Theme Showcase'
 date: ''
 format: 
   baylor_theme-revealjs:
-    author: 'Nathen Byford'
-    institute: 'Baylor University'
+    author: 
+      - 'Nathen Byford'
+      - 'Claude Shannon'
+    institute: 
+      - 'Baylor University'
+      - 'Bell Laboratories'
     footer: 'Nathen Byford'
 ---
 

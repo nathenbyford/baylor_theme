@@ -9,7 +9,7 @@
 <link href="example_pres_files/libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.6.40">
 
-  <meta name="author" content="Nathen Byford">
+  <meta name="author" content="placeholder">
   <title>Theme Showcase</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -94,7 +94,7 @@
     code span.vs { color: #20794d; } /* VerbatimString */
     code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="example_pres_files/libs/revealjs/dist/theme/quarto-58af272eef062fdc220b6a33bf5f299c.css">
+  <link rel="stylesheet" href="example_pres_files/libs/revealjs/dist/theme/quarto-126e77721fe38ed7daa95c77c487d5c4.css">
   <link href="example_pres_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="example_pres_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="example_pres_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -202,6 +202,17 @@
       });
     });
   </script>
+  <script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var container = document.querySelector(".quarto-title-authors");
+    if (!container) return;
+    container.innerHTML =
+      '<div class="quarto-title-author">' +
+        '<div class="quarto-title-author-name">Nathen Byford<sup>A</sup>, Claude Shannon<sup>B</sup></div>' +
+        '<div class="affiliation-line"><sup>A</sup>Baylor University &ensp; <sup>B</sup>Bell Laboratories</div>' +
+      '</div>';
+  });
+  </script>
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -217,6 +228,14 @@ Nathen Byford
 </div>
         <p class="quarto-title-affiliation">
             Baylor University
+          </p>
+    </div>
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Claude Shannon 
+</div>
+        <p class="quarto-title-affiliation">
+            Bell Laboratories
           </p>
     </div>
 </div>
@@ -252,15 +271,15 @@ Nathen Byford
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href=""></a>x <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(<span class="dv">5</span>)</span>
 <span id="cb1-2"><a href=""></a>x</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>[1] -0.6055707 -0.4411709 -0.2027912 -0.1805095 -0.8414990</code></pre>
+<pre><code>[1] -0.02710214 -0.51957885 -1.60685446 -2.76710670 -0.15532295</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href=""></a><span class="fu">mean</span>(x)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>[1] -0.4543082</code></pre>
+<pre><code>[1] -1.015193</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href=""></a><span class="fu">var</span>(x)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>[1] 0.07779905</code></pre>
+<pre><code>[1] 1.34515</code></pre>
 </div>
 </div>
 </section>
@@ -292,24 +311,24 @@ Nathen Byford
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: right;">-0.5127977</td>
-<td style="text-align: right;">1.3005046</td>
+<td style="text-align: right;">0.6664293</td>
+<td style="text-align: right;">-0.0813976</td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">0.2177361</td>
-<td style="text-align: right;">0.2596832</td>
+<td style="text-align: right;">1.5552929</td>
+<td style="text-align: right;">0.0529430</td>
 </tr>
 <tr class="odd">
-<td style="text-align: right;">2.1664229</td>
-<td style="text-align: right;">0.8378278</td>
+<td style="text-align: right;">0.4556483</td>
+<td style="text-align: right;">-0.0206530</td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">-0.1943932</td>
-<td style="text-align: right;">0.1445745</td>
+<td style="text-align: right;">-1.0465393</td>
+<td style="text-align: right;">-0.7188943</td>
 </tr>
 <tr class="odd">
-<td style="text-align: right;">0.8652182</td>
-<td style="text-align: right;">0.1565974</td>
+<td style="text-align: right;">-0.9255327</td>
+<td style="text-align: right;">-1.7253483</td>
 </tr>
 </tbody>
 </table>
@@ -322,7 +341,7 @@ Nathen Byford
 </section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
-<p><img src="_extensions/nathenbyford/baylor_theme/logo.png" class="slide-logo"></p>
+<p><img src="_extensions/baylor_theme/logo.png" class="slide-logo"></p>
 <div class="footer footer-default">
 <p>Nathen Byford</p>
 </div>
