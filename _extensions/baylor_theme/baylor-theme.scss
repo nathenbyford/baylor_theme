@@ -65,15 +65,29 @@ $gray70: #b3b3b3;
   }
 }
 
-.quarto-title-authors {
-    display: flex;
-    justify-content: left;
+.quarto-title-author-name {
+  font-size: 0.85em;
+  font-weight: 400;
 
-    .quarto-title-author {
-      padding-left: 0em;
-      padding-right: 0em;
-      width: 100%;
-    }
+  sup {
+    font-size: 0.6em;
+    vertical-align: super;
+    color: $baylor_green;
+    font-weight: 500;
+  }
+}
+
+.affiliation-line {
+  font-size: 0.65em;
+  color: $gray70;
+  font-weight: 300;
+  margin-top: 0.2em;
+
+  sup {
+    font-size: 0.65em;
+    vertical-align: super;
+    color: $baylor_green;
+  }
 }
 
 .quarto-title-author::before{

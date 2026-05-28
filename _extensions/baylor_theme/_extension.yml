@@ -6,6 +6,8 @@ contributes:
     revealjs:
       logo: logo.png
       theme: [default, baylor-theme.scss]
+      filters:
+        - author_affiliations.lua
       slide-number: true
       auto-animate: true
       chalkboard: false
